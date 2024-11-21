@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <div class="jumbotron">
+            <h1 class="display-4">Bienvenidos a la Pagina Oficial de Lizzie Gomez</h1>
+            <p class="lead">¡Hola! Soy Lizzie Gómez, una actriz y cantante paraguaya apasionada por el arte y la música. Desde joven, he dedicado mi vida a explorar y expresar mis talentos en el escenario y en la pantalla.</p>
+        </div>
+
+        <section id="about-us" class="my-5">
+            <h2>Sobre mí</h2>
+            <p>Mis Proyectos Recientes "El ritual del libro rojo 2: La puerta del infierno": Una emocionante película de terror en la que he tenido el honor de protagonizar junto a un talentoso elenco paraguayo. "Marilina: Atreverse a Soñar": Una serie biopic que ha marcado un antes y un después en mi carrera, permitiéndome explorar nuevas facetas de mi talento</p>
+        </section>
+
+        <section id="servicios" class="my-5">
+            <h2>Servicios</h2>
+            <ul>
+                <li><b>Actuación en Cine y Televisión</b>: Disponibilidad para participar en producciones cinematográficas y televisivas.</li>
+                <li><b>Conciertos y Presentaciones Musicales</b>: Actuaciones en vivo en eventos y conciertos.</li>
+                <li><b>Talleres y Clases de Actuación</b>: Ofrecimiento de talleres y clases magistrales para actores emergentes.</li>
+                <li><b>Colaboraciones y Proyectos Artísticos</b>: Participación en proyectos artísticos y colaboraciones especiales.</li>
+                <li><b>Embajadora de Marcas</b>: Representación y promoción de marcas que compartan mis valores y pasión por el arte.</li>
+            </ul>
+        </section>
+        
+        <section id="portfolio" class="my-5">
+            <h2>Portfolio</h2>
+            <p>Algunos de mis trabajos</p>
+            <!-- Carrousel -->
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/IMG_9178.JPG" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/IMG_9180.JPG" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/IMG_9213.JPG" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        </section>
+
+        <section id="testimonials" class="my-5">
+            <h2>Testimonios</h2>
+            <p>Testimonios de clientes</p>
+        </section>
+    </div>
+
+    <!-- Contact -->
+    <div class="container mt-5">
+        <section id="contact" class="my-5">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese su Email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Ingrese su mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase"> Links</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-dark">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Link 2</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Redes sociales</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://www.facebook.com/lizzie.gomezbenitez" class="text-dark">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/florlizzie/" class="text-dark">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3 bg-dark text-white">
+            © 2024 Mi Página Web
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
