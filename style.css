@@ -48,3 +48,46 @@ p {
 .navbar-collapse {
   background-color: black;
 }
+/* Contenedor principal para redes sociales */
+.social-media-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 100%;
+}
+
+/* Estilos para Instagram */
+.instagram-media {
+  margin: 0 auto !important;
+  min-width: 326px !important;
+  max-width: 540px !important;
+  width: 100% !important;
+}
+
+/* Estilos para YouTube */
+iframe {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  width: 560px; /* Ancho estándar de YouTube */
+}
+
+/* Contenedor responsive para iframes */
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  margin: 0 auto;
+  padding-bottom: 56.25%; /* Ratio 16:9 */
+  height: 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
