@@ -8,12 +8,14 @@ body, html {
   width: 100%; 
   height: 100%; 
   background-color: black;
-  color: white; 
+  color: white;
+  scroll-behavior: smooth;
 }
 
 p {
   color: white;
 }
+
 /* Estilos base del navbar */
 .navbar {
   background-color: black !important;
@@ -48,6 +50,7 @@ p {
 .navbar-collapse {
   background-color: black;
 }
+
 /* Contenedor principal para redes sociales */
 .social-media-container {
   display: flex;
